@@ -19,9 +19,9 @@ namespace DapperDb.Repos
     {
         public void CusTest()
         {
-            (this as IReader<Article>).Get();//base
-            (this as IRepo<Article>).Get();//def
-            (this as IRepo).GetEntity<Article>();//cus
+            (this as IReader<Article>).GetAsync();//base
+            _ = (this as IRepo<Article>).GetAsync();//def
+            _ = (this as IRepo).GetEntityAsync<Article>();//cus
         }
     }
 }

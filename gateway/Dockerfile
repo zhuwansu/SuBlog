@@ -7,10 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["Sublog.csproj", ""]
-RUN dotnet restore "./Sublog.csproj"
+COPY ["gateway/Sublog.csproj", "gateway/"]
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["DbEntities/DbEntities.csproj", "DbEntities/"]
+COPY ["DbEnums/DbEnums.csproj", "DbEnums/"]
+COPY ["DapperDb/DapperDb.csproj", "DapperDb/"]
+COPY ["DBProvider/DBProvider.csproj", "DBProvider/"]
+COPY ["../ApiModels/ApiModels.csproj", "../ApiModels/"]
+RUN dotnet restore "gateway/Sublog.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/gateway"
 RUN dotnet build "Sublog.csproj" -c Release -o /app/build
 
 FROM build AS publish

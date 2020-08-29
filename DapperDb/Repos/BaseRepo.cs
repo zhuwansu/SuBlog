@@ -12,14 +12,15 @@ Version        : V1.0.0.0
 
 
 using DbEntities;
+using System.Threading.Tasks;
 
 namespace DapperDb.Repos
 {
     public abstract class BaseRepo<T> : IRepo<T>, IReader<T> where T : IEntity
     {
-        public virtual T Get()
+        public async Task<T> GetAsync()
         {
-            return (this as IRepo<T>).Get();
+            return await (this as IRepo).GetEntityAsync<T>();
         }
     }
 }

@@ -11,23 +11,27 @@
  * 
 *******************************************************/
 
+using Dapper;
 using DbEntities;
+using DBProvider;
 
 namespace DapperDb
 {
     public partial interface IRepo<T> : IRepo where T : IEntity
     {
-        public virtual T Get()
+        public virtual async System.Threading.Tasks.Task<T> GetAsync()
         {
-            return GetEntity<T>();
+            return await GetEntityAsync<T>();
         }
     }
 
     public partial interface IRepo
     {
-        public T GetEntity<T>() where T : IEntity
+        public async System.Threading.Tasks.Task<T> GetEntityAsync<T>() where T : IEntity
         {
-            return default(T);
+            using var cnn = new MySqlProvider().GetMySqlConnection();
+
+            return await cnn.QueryFirstAsync<T>("select * from Account");
         }
     }
 }

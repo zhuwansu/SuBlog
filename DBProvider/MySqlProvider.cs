@@ -21,7 +21,7 @@ namespace DBProvider
 
         public string GetConnectionString()
         {
-            return "Server=localhost;Database=SuBlog;Uid=root;Pwd=123456;";
+            return "Database=SuBlog;Data Source=localhost;User Id=root;Password=123456;CharSet=utf8;port=3306";
         }
 
         public DbConnection GetMySqlConnection(bool open = true,  bool convertZeroDatetime = false, bool allowZeroDatetime = false)

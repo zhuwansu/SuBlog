@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiModels", "..\ApiModels\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBProvider", "DBProvider\DBProvider.csproj", "{A803275B-63C8-4D13-8CCF-D584A70B7FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3A5C31FF-CF01-4EBE-811F-03062345EAFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{A803275B-63C8-4D13-8CCF-D584A70B7FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A803275B-63C8-4D13-8CCF-D584A70B7FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A803275B-63C8-4D13-8CCF-D584A70B7FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5C31FF-CF01-4EBE-811F-03062345EAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5C31FF-CF01-4EBE-811F-03062345EAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5C31FF-CF01-4EBE-811F-03062345EAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5C31FF-CF01-4EBE-811F-03062345EAFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{F1DC0470-19ED-46F4-8F1E-E8646A9F9293} = {63FE67A8-6C40-47E7-9EC5-CA923CA3B4C0}
 		{86D936B4-A31B-462B-B20C-29029752A64D} = {63FE67A8-6C40-47E7-9EC5-CA923CA3B4C0}
 		{A803275B-63C8-4D13-8CCF-D584A70B7FEC} = {74B23FD0-9DC2-4175-8259-8CCE8BCDD2B9}
+		{3A5C31FF-CF01-4EBE-811F-03062345EAFF} = {00B86C85-2226-4559-9DA2-3852F9128FB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46E60AB1-C7C8-4FE7-80F8-01122835C541}

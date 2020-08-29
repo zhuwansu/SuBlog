@@ -1,0 +1,12 @@
+C:\Users\zebra\source\repos\SuBlog\DbEntities\bin\Debug\netstandard2.0\DbEntities.deps.json
+C:\Users\zebra\source\repos\SuBlog\DbEntities\bin\Debug\netstandard2.0\DbEntities.dll
+C:\Users\zebra\source\repos\SuBlog\DbEntities\bin\Debug\netstandard2.0\DbEntities.pdb
+C:\Users\zebra\source\repos\SuBlog\DbEntities\bin\Debug\netstandard2.0\DbEnums.dll
+C:\Users\zebra\source\repos\SuBlog\DbEntities\bin\Debug\netstandard2.0\DbEnums.pdb
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.csprojAssemblyReference.cache
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.AssemblyInfoInputs.cache
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.AssemblyInfo.cs
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.csproj.CoreCompileInputs.cache
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.csproj.CopyComplete
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.dll
+C:\Users\zebra\source\repos\SuBlog\DbEntities\obj\Debug\netstandard2.0\DbEntities.pdb

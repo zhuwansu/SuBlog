@@ -1,0 +1,9 @@
+C:\Users\zebra\source\repos\SuBlog\DbEnums\bin\Debug\netstandard2.0\DbEnums.deps.json
+C:\Users\zebra\source\repos\SuBlog\DbEnums\bin\Debug\netstandard2.0\DbEnums.dll
+C:\Users\zebra\source\repos\SuBlog\DbEnums\bin\Debug\netstandard2.0\DbEnums.pdb
+C:\Users\zebra\source\repos\SuBlog\DbEnums\obj\Debug\netstandard2.0\DbEnums.csprojAssemblyReference.cache
+C:\Users\zebra\source\repos\SuBlog\DbEnums\obj\Debug\netstandard2.0\DbEnums.AssemblyInfoInputs.cache
+C:\Users\zebra\source\repos\SuBlog\DbEnums\obj\Debug\netstandard2.0\DbEnums.AssemblyInfo.cs
+C:\Users\zebra\source\repos\SuBlog\DbEnums\obj\Debug\netstandard2.0\DbEnums.csproj.CoreCompileInputs.cache
+C:\Users\zebra\source\repos\SuBlog\DbEnums\obj\Debug\netstandard2.0\DbEnums.dll
+C:\Users\zebra\source\repos\SuBlog\DbEnums\obj\Debug\netstandard2.0\DbEnums.pdb

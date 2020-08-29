@@ -12,11 +12,12 @@
 *******************************************************/
 
 using DbEntities;
+using System.Threading.Tasks;
 
 namespace DapperDb
 {
     public interface IReader<T> where T : IEntity
     {
-        T Get();
+       public Task<T> GetAsync();
     }
 }

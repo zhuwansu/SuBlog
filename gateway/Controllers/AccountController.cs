@@ -12,7 +12,9 @@
 *******************************************************/
 
 using ApiModels;
+using Domain;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace Sublog.Controllers
 {
@@ -20,9 +22,10 @@ namespace Sublog.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        public IActionResult Get()
+        public async Task<IActionResult> GetAsync()
         {
-            return Result.Ok();
+            var account = await new AccountService().GetAsync();
+            return Result.Ok(account);
         }
     }
 }

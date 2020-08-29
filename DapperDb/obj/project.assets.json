@@ -1720,6 +1720,20 @@
         "runtime": {
           "bin/placeholder/DbEnums.dll": {}
         }
+      },
+      "DBProvider/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Dapper": "2.0.35",
+          "MySql.Data": "8.0.21"
+        },
+        "compile": {
+          "bin/placeholder/DBProvider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DBProvider.dll": {}
+        }
       }
     }
   },
@@ -5951,10 +5965,16 @@
       "type": "project",
       "path": "../DbEnums/DbEnums.csproj",
       "msbuildProject": "../DbEnums/DbEnums.csproj"
+    },
+    "DBProvider/1.0.0": {
+      "type": "project",
+      "path": "../DBProvider/DBProvider.csproj",
+      "msbuildProject": "../DBProvider/DBProvider.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DBProvider >= 1.0.0",
       "Dapper >= 2.0.35",
       "Dapper.SqlBuilder >= 2.0.35",
       "DbEntities >= 1.0.0",
@@ -5996,6 +6016,9 @@
           "projectReferences": {
             "C:\\Users\\zebra\\source\\repos\\SuBlog\\DbEntities\\DbEntities.csproj": {
               "projectPath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\DbEntities\\DbEntities.csproj"
+            },
+            "C:\\Users\\zebra\\source\\repos\\SuBlog\\DBProvider\\DBProvider.csproj": {
+              "projectPath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\DBProvider\\DBProvider.csproj"
             }
           }
         }

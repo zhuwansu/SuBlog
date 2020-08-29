@@ -10,11 +10,26 @@ Version        : V1.0.0.0
 
 **********************************************/
 
+using DapperDb.Repos;
 using DbEntities;
+using System.ComponentModel;
 
 namespace DapperDb
 {
-    public sealed class RF : RepoResolver { }
+    public static class RS
+    {
+        public static RepoResolver RepoInstatnce { get; set; } = new RepoResolver();
+        public static IRepo Entity<T>() where T : IEntity
+        {
+            return RepoInstatnce.FindRepo<T>();
+        }
+
+        public static T Repo<T>() where T : IRepo,new()
+        {
+            return RepoInstatnce.ResoveRepo<T>();
+        }
+
+    }
 
     public class RepoResolver
     {
@@ -23,9 +38,14 @@ namespace DapperDb
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
-        public IRepo ResolveRepo<T>() where T : IEntity
+        public IRepo FindRepo<T>() where T : IEntity
         {
-            return default;
+            return new DefaultRepo<T>();
+        }
+
+        public T ResoveRepo<T>() where T : IRepo, new()
+        {
+            return new T();
         }
     }
 
