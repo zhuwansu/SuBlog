@@ -15,7 +15,7 @@ namespace DbEntities
 {
     public partial class Account : IEntity
     {
-        public long ID { get; set; }
+        public long Id { get; set; }
         public DbEnums.Type Type { get; set; }
         public string AccountNumber { get; set; }
         public string Password { get; set; }

@@ -1,0 +1,5 @@
+C:\Users\zebra\source\repos\SuBlog\DBProvider\bin\Debug\netstandard2.0\DBProvider.deps.json
+C:\Users\zebra\source\repos\SuBlog\DBProvider\bin\Debug\netstandard2.0\DBProvider.dll
+C:\Users\zebra\source\repos\SuBlog\DBProvider\obj\Debug\netstandard2.0\DBProvider.csprojAssemblyReference.cache
+C:\Users\zebra\source\repos\SuBlog\DBProvider\obj\Debug\netstandard2.0\DBProvider.AssemblyInfoInputs.cache
+C:\Users\zebra\source\repos\SuBlog\DBProvider\obj\Debug\netstandard2.0\DBProvider.AssemblyInfo.cs

@@ -1,0 +1,5 @@
+C:\Users\zebra\source\repos\SuBlog\DapperDb\bin\Debug\netcoreapp3.1\DapperDb.deps.json
+C:\Users\zebra\source\repos\SuBlog\DapperDb\bin\Debug\netcoreapp3.1\DapperDb.dll
+C:\Users\zebra\source\repos\SuBlog\DapperDb\obj\Debug\netcoreapp3.1\DapperDb.csprojAssemblyReference.cache
+C:\Users\zebra\source\repos\SuBlog\DapperDb\obj\Debug\netcoreapp3.1\DapperDb.AssemblyInfoInputs.cache
+C:\Users\zebra\source\repos\SuBlog\DapperDb\obj\Debug\netcoreapp3.1\DapperDb.AssemblyInfo.cs
