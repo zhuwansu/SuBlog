@@ -1,0 +1,9 @@
+C:\Users\zebra\source\repos\Sublog\Sublog\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\zebra\source\repos\Sublog\Sublog\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\zebra\source\repos\Sublog\Sublog\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\zebra\source\repos\Sublog\Sublog\obj\Debug\netcoreapp3.1\Sublog.csprojAssemblyReference.cache
+C:\Users\zebra\source\repos\Sublog\Sublog\obj\Debug\netcoreapp3.1\Sublog.AssemblyInfoInputs.cache
+C:\Users\zebra\source\repos\Sublog\Sublog\obj\Debug\netcoreapp3.1\Sublog.AssemblyInfo.cs
+C:\Users\zebra\source\repos\Sublog\Sublog\obj\Debug\netcoreapp3.1\Sublog.RazorTargetAssemblyInfo.cache
+C:\Users\zebra\source\repos\Sublog\Sublog\obj\Debug\netcoreapp3.1\staticwebassets\Sublog.StaticWebAssets.Manifest.cache
+C:\Users\zebra\source\repos\Sublog\Sublog\obj\Debug\netcoreapp3.1\staticwebassets\Sublog.StaticWebAssets.xml

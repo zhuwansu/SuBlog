@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d6kXhBjCsf0v9zl1SLLPIaIj2WeXNuc8G2bFfXMaYQgnKSGKADVlLVoO8i0f4s37ZT+/NlhKEIH0WkT4zlzZzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\Sublog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zebra\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
