@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zebra\\source\\repos\\SuBlog\\Sublog.csproj": {}
+    "C:\\Users\\zebra\\source\\repos\\SuBlog\\gateway\\Sublog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zebra\\source\\repos\\SuBlog\\Sublog.csproj": {
+    "C:\\Users\\zebra\\source\\repos\\SuBlog\\gateway\\Sublog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zebra\\source\\repos\\SuBlog\\Sublog.csproj",
+        "projectUniqueName": "C:\\Users\\zebra\\source\\repos\\SuBlog\\gateway\\Sublog.csproj",
         "projectName": "Sublog",
-        "projectPath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\Sublog.csproj",
+        "projectPath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\gateway\\Sublog.csproj",
         "packagesPath": "C:\\Users\\zebra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\obj\\",
+        "outputPath": "C:\\Users\\zebra\\source\\repos\\SuBlog\\gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
